@@ -14,20 +14,14 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/.gitignore",
-      "oF" : 0
-    },
-    "\/build" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/build\/build",
+      "oAP" : "\/.gitignore",
       "oF" : 0
     },
     "\/graphics\/snippets-guru-icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/graphics\/snippets-guru-icon.svg",
+      "oAP" : "\/graphics\/snippets-guru-icon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -37,16 +31,22 @@
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/graphics\/snippets-guru-logo.svg",
+      "oAP" : "\/graphics\/snippets-guru-logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
+    },
     "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/package-lock.json",
+      "oAP" : "\/package-lock.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -54,7 +54,7 @@
     "\/package.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/package.json",
+      "oAP" : "\/package.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -65,10 +65,18 @@
       "ma" : 3,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/build\/postcss.config.js",
+      "oAP" : "\/postcss.config.js",
       "oF" : 1,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/README.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0
     },
     "\/README.md" : {
       "cB" : 0,
@@ -80,7 +88,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/README.html",
+      "oAP" : "\/README.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -94,7 +102,7 @@
       "iS" : 200038,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/snippets-guru-open-graph.jpg",
+      "oAP" : "\/snippets-guru-open-graph.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -110,17 +118,33 @@
       "ft" : 16,
       "ma" : 3,
       "oA" : 0,
-      "oAP" : "\/build\/css\/main.css",
+      "oAP" : "\/source\/css\/main.css",
       "oF" : 1,
       "pg" : 0
+    },
+    "\/source\/css\/main.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/source\/css\/main.css.map",
+      "oF" : 0
+    },
+    "\/source\/docs.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/source\/docs.html",
+      "oF" : 0
     },
     "\/source\/favicon-16x16.png" : {
       "ft" : 32768,
       "iS" : 1029,
       "oA" : 0,
-      "oAP" : "\/build\/favicon-16x16.png",
+      "oAP" : "\/source\/favicon-16x16.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -131,9 +155,9 @@
       "ft" : 32768,
       "iS" : 1295,
       "oA" : 0,
-      "oAP" : "\/build\/favicon-32x32.png",
+      "oAP" : "\/source\/favicon-32x32.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
@@ -145,7 +169,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/favicon.ico",
+      "oAP" : "\/source\/favicon.ico",
       "oF" : 0
     },
     "\/source\/index.html" : {
@@ -153,7 +177,15 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/index.html",
+      "oAP" : "\/source\/index.html",
+      "oF" : 0
+    },
+    "\/source\/index.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/source\/index.html",
       "oF" : 0
     },
     "\/source\/logo.jpg" : {
@@ -161,7 +193,7 @@
       "iS" : 18893,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/logo.jpg",
+      "oAP" : "\/source\/logo.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -169,13 +201,29 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/source\/partials\/footer.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/source\/partials\/footer.html",
+      "oF" : 0
+    },
+    "\/source\/partials\/header.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/source\/partials\/header.html",
+      "oF" : 0
+    },
     "\/tailwind.config.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 3,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/build\/tailwind.config.js",
+      "oAP" : "\/tailwind.config.js",
       "oF" : 1,
       "sC" : 3,
       "tS" : 0
@@ -191,9 +239,9 @@
     "creationDate" : 668784477.34201801,
     "displayValue" : "snippets-guru",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "\/source\/logo.jpg",
+    "iconImageName" : "logo-react",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 668784495.40114605
+    "lastBuiltDate" : 668802641.74602699
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -488,7 +536,7 @@
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
     "buildEnvironment" : 1,
-    "buildFolderActive" : 1,
+    "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
     "cssoForceMediaMerge" : 0,
@@ -1741,7 +1789,7 @@
     "npmSaveExactVersion" : 0,
     "npmTargetDependencyListType" : 1,
     "overrideExternalServerCSS" : 0,
-    "previewPathAddition" : "",
+    "previewPathAddition" : "\/source\/",
     "purgeCSS" : {
       "blocklistEntries" : [
 
@@ -2096,7 +2144,7 @@
     "webpPresets" : {
 
     },
-    "websiteRelativeRoot" : "build"
+    "websiteRelativeRoot" : ""
   },
   "settingsFileVersion" : "3"
 }
