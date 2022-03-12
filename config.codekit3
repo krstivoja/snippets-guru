@@ -123,6 +123,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/source\/old - index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/old - index.html",
+      "oF" : 0
+    },
     "\/source\/partials\/footer.html" : {
       "cB" : 0,
       "ft" : 8192,
