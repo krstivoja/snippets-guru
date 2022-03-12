@@ -43,12 +43,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/node_modules" : {
-      "ft" : 65536,
-      "oA" : 2,
-      "oAP" : "\/build\/node_modules",
-      "oF" : 0
-    },
     "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
