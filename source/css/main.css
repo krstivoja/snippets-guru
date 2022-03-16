@@ -10,7 +10,7 @@
 }
 
 .nav_tag{
-    @apply bg-slate-300 text-xs font-semibold rounded-sm py-[2px] px-[4px] text-black;
+    @apply bg-slate-200 text-xs rounded-sm py-[2px] px-[4px] text-black;
 }
 
 .h1{
@@ -59,6 +59,15 @@
     @apply bg-white py-0 px-2 mb-2 rounded-full border inline-flex gap-4;
 }
 
+.cta--action{
+    @apply inline-flex gap-2 px-2 rounded border;
+}
+
+
+
+.tab button.active {
+    @apply border-violet-500;
+}
 
 /* #single-code--page-content aside {
     order: -1;

@@ -1,37 +1,37 @@
 <!-- @import 'partials/header.html' -->
 
 <div id="single-code--page-content">
-        <main id="content" class="grid gap--l">
+        <main id="content" class="grid gap-4">
             <h1 class="h1 main-title">
                 Remove archive prefix
             </h1>
 
-            <div id="info" class="flex gap-4">
-                <img class="rounded--full" src="/img_dynamic/user.jpg" alt="">
+            <div id="info" class="flex items-center gap-4">
+                <img class="rounded-full" src="img_dynamic/user.jpg" alt="">
                 <span><strong>Krstivoja</strong> last time updated 6 days ago</span>
                 <span class="spacer">•</span>
                 <span>Created 2nd Mart 2021</span>
             </div>
 
-            <div id="actions" class="">
+            <div id="actions" class="flex gap-4">
                 <a href="#" class="cta--action"><img src="img/cta--action/favorite.svg">Favorite</a href="#">
                 <a href="#" class="cta--action"><img src="img/cta--action/clone.svg">Clone</a href="#">
                 <a href="#" class="cta--action"><img src="img/cta--action/public.svg">Public</a href="#">
                 <a href="#" class="cta--action"><img src="img/cta--action/share.svg">Share</a href="#">
-                <a href="#" class="cta--action cta--action__push cta--red">Delete</a href="#">
+                <a href="#" class="cta--action text-red-600 ml-auto">Delete</a href="#">
             </div>
 
             <div id="code" class="tabs">
 
                 <!-- Tab links -->
-                <div class="tab">
-                    <button class="tablinks" onclick="openCity(event, 'Header')" id="defaultOpen">Header <span class="script-type">CSS</span></button>
-                    <button class="tablinks" onclick="openCity(event, 'Footer')">Footer <span class="script-type">JS</span></button>
-                    <button class="tablinks" onclick="openCity(event, 'PHP')">PHP</button>
+                <div class="tab  ml-2">
+                    <button class="tablinks p-4 border-b-4 border-transparent" onclick="openCity(event, 'Header')" id="defaultOpen">Header <span class="nav_tag">CSS</span></button>
+                    <button class="tablinks p-4 border-b-4 border-transparent" onclick="openCity(event, 'Footer')">Footer <span class="nav_tag">JS</span></button>
+                    <button class="tablinks p-4 border-b-4 border-transparent" onclick="openCity(event, 'PHP')">PHP</button>
                 </div>
                 
                 <!-- Tab content -->
-                <div id="Header" class="tabcontent">
+                <div id="Header" class="tabcontent border rounded-lg p-4">
 <pre><code class="language-css">@import "compass/reset";
 
 // variables
@@ -59,7 +59,7 @@ button {
 </pre>
                 </div>
                 
-<div id="Footer" class="tabcontent">
+<div id="Footer" class="tabcontent border rounded-lg p-4">
 <pre><code class="language-js">function $initHighlight(block, cls) {
     try {
         if (cls.search(/\bno\-highlight\b/) != -1)
@@ -84,7 +84,7 @@ export  $initHighlight;
 </code></pre>
 </div>
 
-<div id="PHP" class="tabcontent">
+<div id="PHP" class="tabcontent border rounded-lg p-4">
 <pre><code class="language-php">require_once 'Zend/Uri/Http.php';
 
 namespace Location\Web;
