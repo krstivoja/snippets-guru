@@ -98,23 +98,24 @@ interface Factory
 
 </div><!-- End of code -->
 
-            <div id="code--info">
+            <div id="code--info" class="mt-8">
                 <h3>Description</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget rhoncus enim, eget lobortis velit. Quisque viverra magna et nulla convallis, vel dapibus quam convallis. Praesent vehicula tincidunt diam eget aliquam. Maecenas fringilla ut ante ut blandit. Pellentesque luctus, orci vel porta vehicula, odio orci aliquet mi, a auctor nulla magna sit amet nisl.</p>
             </div>
         </main>
 
         <aside id="settings" class="border rounded-lg p-4">
-            <h3 class="h3">Snippets Meta</h3>
+            <h3 class="h3">Config</h3>
 
             <div id="run-script-location" class="settings__group">
 
-                   <div class="inline-block">
+                    <p class="font-semibold my-2">Scope</p>
+                    <div class="inline-block">
                         <input type="radio" id="huey" name="drone" value="huey" checked>
                         <label for="huey">Run snippet everywhere</label>
-                   </div>
-                       
-                   <div class="inline-block">
+                    </div>
+                        
+                    <div class="inline-block">
                         <input type="radio" id="dewey" name="drone" value="dewey">
                         <label for="dewey">Only run in administration area</label>
                     </div>
@@ -132,17 +133,17 @@ interface Factory
                     <div class="inline-block">
                         <input type="radio" id="louie" name="drone" value="louie">
                         <label for="louie">Only run on site front-end  </label>
-                   </div>
+                    </div>
 
             </div><!-- End of Settings Group -->
 
             <div class="settings__group">
-                <label for="">Priority</label>
+                <label for="" class="font-semibold my-2">Priority</label>
                 <input class="inline input" type="text">
             </div><!-- End of Settings Group -->
 
             <div class="settings__group">
-                <label for="">Tags</label>
+                <label for="" class="font-semibold my-2">Tags</label>
                 <div class="tags-wrap input">
                     <span class="tag">Shortcode</span>
                     <span class="tag">Function</span>
