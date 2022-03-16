@@ -3,3 +3,12 @@
 @import "tailwindcss/utilities";
 
 /* ------ Add your CSS below this line (or @import your other CSS files). ------- */
+
+
+.cta--primary{
+    @apply bg-violet-500 text-white rounded-full py-3 px-8;
+}
+
+.nav_tag{
+    @apply bg-slate-300 text-xs font-semibold rounded-sm py-[2px] px-[4px] text-black;
+}

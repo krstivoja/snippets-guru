@@ -1,7 +1,174 @@
 <!-- @import 'partials/header.html' -->
 
-<h1>
-Code Single
-</h1>
+<div id="page-content" class="wrap container gap--xl p-y--xl">
+        <main id="content" class="grid gap--l">
+            <h1 class="h1 main-title">
+                Remove archive prefix
+            </h1>
+
+            <div id="info" class="flex align-v gap--s ">
+                <img class="rounded--full" src="/img_dynamic/user.jpg" alt="">
+                <span><strong>Krstivoja</strong> last time updated 6 days ago</span>
+                <span class="spacer">•</span>
+                <span>Created 2nd Mart 2021</span>
+            </div>
+
+            <div id="actions" class="">
+                <a href="#" class="cta--action"><img src="img/cta--action/favorite.svg">Favorite</a href="#">
+                <a href="#" class="cta--action"><img src="img/cta--action/clone.svg">Clone</a href="#">
+                <a href="#" class="cta--action"><img src="img/cta--action/public.svg">Public</a href="#">
+                <a href="#" class="cta--action"><img src="img/cta--action/share.svg">Share</a href="#">
+                <a href="#" class="cta--action cta--action__push cta--red">Delete</a href="#">
+            </div>
+
+            <div id="code" class="tabs">
+
+                <!-- Tab links -->
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'Header')" id="defaultOpen">Header <span class="script-type">CSS</span></button>
+                    <button class="tablinks" onclick="openCity(event, 'Footer')">Footer <span class="script-type">JS</span></button>
+                    <button class="tablinks" onclick="openCity(event, 'PHP')">PHP</button>
+                </div>
+                
+                <!-- Tab content -->
+                <div id="Header" class="tabcontent">
+<pre><code class="language-css">@import "compass/reset";
+
+// variables
+$colorGreen: #008000;
+$colorGreenDark: darken($colorGreen, 10);
+
+@mixin container {
+    max-width: 980px;
+}
+
+// mixins with parameters
+@mixin button($color:green) {
+    @if ($color == green) {
+        background-color: #008000;
+    }
+    @else if ($color == red) {
+        background-color: #B22222;
+    }
+}
+
+button {
+    @include button(red);
+}
+</code>
+</pre>
+                </div>
+                
+<div id="Footer" class="tabcontent">
+<pre><code class="language-js">function $initHighlight(block, cls) {
+    try {
+        if (cls.search(/\bno\-highlight\b/) != -1)
+        return process(block, true, 0x0F) +
+                ` class="${cls}"`;
+    } catch (e) {
+        /* handle exception */
+    }
+    for (var i = 0 / 2; i < classes.length; i++) {
+        if (checkCondition(classes[i]) === undefined)
+        console.log('undefined');
+    }
+    
+    return (
+        <div>
+        <web-component>{block}</web-component>
+        </div>
+    )
+    }
+    
+export  $initHighlight;
+</code></pre>
+</div>
+
+<div id="PHP" class="tabcontent">
+<pre><code class="language-php">require_once 'Zend/Uri/Http.php';
+
+namespace Location\Web;
+
+interface Factory
+{
+    static function _factory();
+}</code></pre>
+
+</div>
+
+</div><!-- End of code -->
+
+            <div id="code--info">
+                <h3>Description</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget rhoncus enim, eget lobortis velit. Quisque viverra magna et nulla convallis, vel dapibus quam convallis. Praesent vehicula tincidunt diam eget aliquam. Maecenas fringilla ut ante ut blandit. Pellentesque luctus, orci vel porta vehicula, odio orci aliquet mi, a auctor nulla magna sit amet nisl.</p>
+            </div>
+        </main>
+
+        <aside id="settings" class="border rounded--s p--m">
+            <h3 class="h3">Snippets Meta</h3>
+
+            <div id="run-script-location" class="settings__group">
+
+                   <div class="inline-block">
+                        <input type="radio" id="huey" name="drone" value="huey" checked>
+                        <label for="huey">Run snippet everywhere</label>
+                   </div>
+                       
+                   <div class="inline-block">
+                        <input type="radio" id="dewey" name="drone" value="dewey">
+                        <label for="dewey">Only run in administration area</label>
+                    </div>
+
+                    <div class="inline-block">
+                        <input type="radio" id="louie" name="drone" value="louie">
+                        <label for="louie">Only run on site front-end  </label>
+                    </div>
+                    
+                    <div class="inline-block">
+                        <input type="radio" id="louie" name="drone" value="louie">
+                        <label for="louie">Only run once  </label>
+                    </div>
+                    
+                    <div class="inline-block">
+                        <input type="radio" id="louie" name="drone" value="louie">
+                        <label for="louie">Only run on site front-end  </label>
+                   </div>
+
+            </div><!-- End of Settings Group -->
+
+            <div class="settings__group">
+                <label for="">Priority</label>
+                <input class="inline-block input" type="text">
+            </div><!-- End of Settings Group -->
+
+            <div class="settings__group">
+                <label for="">Tags</label>
+                <div class="tags-wrap input">
+                    <span class="tag">Shortcode</span>
+                    <span class="tag">Function</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">Style</span>
+                    <span class="tag">Blog</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">Style</span>
+                    <span class="tag">Blog</span>
+                </div>
+            </div><!-- End of Settings Group -->
+
+
+        </aside>
+    </div>
+    
+
+
+    <script src="node_modules/prismjs/prism.js"></script>
+    <script src="js/tab.js"></script>
+
+    <script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+    
 
 <!-- @import 'partials/footer.html' -->
