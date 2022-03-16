@@ -265,6 +265,14 @@
       "oAP" : "\/build\/single-code.html",
       "oF" : 0
     },
+    "\/source\/snippets-guru.code-workspace" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/snippets-guru.code-workspace",
+      "oF" : 0
+    },
     "\/tailwind.config.js" : {
       "bF" : 0,
       "ft" : 64,

@@ -12,3 +12,62 @@
 .nav_tag{
     @apply bg-slate-300 text-xs font-semibold rounded-sm py-[2px] px-[4px] text-black;
 }
+
+.h1{
+    @apply text-5xl font-bold mb-4;
+}
+
+.h2{
+
+}
+
+.h3{
+    @apply text-2xl font-bold mb-4;
+}
+
+/* ******************************************** */
+/* Layouts */
+/* ******************************************** */
+
+/* Code Single */
+
+#single-code--page-content{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    @apply container mx-auto grid gap-16 py-16;
+}
+
+
+#single-code--page-content #settings{
+    align-self: start;
+    order: -1;
+}
+
+#single-code--page-content  #content{
+    grid-column: span 2;
+}
+
+.settings__group{
+    @apply grid gap-2 my-4;
+}
+
+
+.input{
+    @apply bg-slate-100 p-2 rounded-md border;
+}
+
+.tag{
+    @apply bg-white py-0 px-2 mb-2 rounded-full border inline-flex gap-4;
+}
+
+
+/* #single-code--page-content aside {
+    order: -1;
+    align-self: start;
+} */
+
+/* .container {
+    width: 90%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+} */
